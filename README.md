@@ -4,7 +4,7 @@
 
 Automate issue creation on Mantis Bug Tracker with this GitHub action. **It's free!**
 
-## [![Test Code](https://github.com/mjorgegulab/mantis-bug-tracker-action/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/mjorgegulab/mantis-bug-tracker-action/actions/workflows/tests.yml) [![CodeQL](https://github.com/mjorgegulab/mantis-bug-tracker-action/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/mjorgegulab/mantis-bug-tracker-action/actions/workflows/github-code-scanning/codeql) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/e822fd93d7ee45d1856054062c86cbfc)](https://app.codacy.com/gh/mjorgegulab/mantis-bug-tracker-action/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) [![Known Vulnerabilities](https://snyk.io/test/github/mjorgegulab/mantis-bug-tracker-action/badge.svg)](https://snyk.io/test/github/mjorgegulab/mantis-bug-tracker-action)
+## [![Test Code](https://github.com/cipher-fox/mantis-bug-tracker-action/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/cipher-fox/mantis-bug-tracker-action/actions/workflows/tests.yml) [![CodeQL](https://github.com/cipher-fox/mantis-bug-tracker-action/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/cipher-fox/mantis-bug-tracker-action/actions/workflows/github-code-scanning/codeql) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/e822fd93d7ee45d1856054062c86cbfc)](https://app.codacy.com/gh/cipher-fox/mantis-bug-tracker-action/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) [![Known Vulnerabilities](https://snyk.io/test/github/cipher-fox/mantis-bug-tracker-action/badge.svg)](https://snyk.io/test/github/cipher-fox/mantis-bug-tracker-action)
 
 ### Usage Example
 
@@ -21,7 +21,7 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: 📂 Open issue
-        uses: mjorgegulab/mantis-bug-tracker-action@v1.0.0
+        uses: cipher-fox/mantis-bug-tracker-action@v1.0.0
         with:
           base-url: 'https://bt.mantis.com'
           url: '/mantis/api/rest/issues'
@@ -111,7 +111,7 @@ jobs:
     steps:
       - name: 📂 Open issue
         id: mantisbt
-        uses: mjorgegulab/mantis-bug-tracker-action@v1.0.0
+        uses: cipher-fox/mantis-bug-tracker-action@v1.0.0
         with:
           base-url: 'https://bt.mantis.com'
           url: '/mantis/api/rest/issues'
@@ -142,7 +142,7 @@ jobs:
     steps:
       - name: MantisBT Issue
         id: mantisbt
-        uses: mjorgegulab/mantis-bug-tracker-action@v1.0.0
+        uses: cipher-fox/mantis-bug-tracker-action@v1.0.0
         with:
           base-url: 'https://bt.mantis.com'
           url: '/mantis/api/rest/issues'
@@ -170,7 +170,7 @@ jobs:
     steps:
       - name: MantisBT Issue
         id: mantisbt
-        uses: mjorgegulab/mantis-bug-tracker-action@v1.0.0
+        uses: cipher-fox/mantis-bug-tracker-action@v1.0.0
         with:
           base-url: 'https://bt.mantis.com'
           url: '/mantis/api/rest/issues'
@@ -204,7 +204,7 @@ jobs:
     steps:
       - name: MantisBT Issue
         id: mantisbt
-        uses: mjorgegulab/mantis-bug-tracker-action@v1.0.0
+        uses: cipher-fox/mantis-bug-tracker-action@v1.0.0
         with:
           base-url: 'https://bt.mantis.com'
           url: '/mantis/api/rest/issues'
@@ -244,7 +244,7 @@ jobs:
 
 ---
 
-_Want another example? Let me know by creating a [github issue](https://github.com/mjorgegulab/mantis-bug-tracker-action/issues/new)_
+_Want another example? Let me know by creating a [github issue](https://github.com/cipher-fox/mantis-bug-tracker-action/issues/new)_
 
 ---
 
@@ -252,22 +252,22 @@ _Want another example? Let me know by creating a [github issue](https://github.c
 
 If you appreciate this github action give it a :star: or show off with one of the badges below. Feel free to edit the text or color.
 
-[<img alt="Bug Tracked With-Mantis Bug Tracker Github Action" src="https://img.shields.io/badge/Bug Tracked With-Mantis Bug Tracker Github Action-<COLOR>?style=for-the-badge&color=0077b6">](https://github.com/mjorgegulab/mantis-bug-tracker-action)
+[<img alt="Bug Tracked With-Mantis Bug Tracker Github Action" src="https://img.shields.io/badge/Bug Tracked With-Mantis Bug Tracker Github Action-<COLOR>?style=for-the-badge&color=0077b6">](https://github.com/cipher-fox/mantis-bug-tracker-action)
 
 ```md
-[<img alt="Bug Tracked With-Mantis Bug Tracker Github Action" src="https://img.shields.io/badge/Bug Tracked With-Mantis Bug Tracker Github Action-<COLOR>?style=for-the-badge&color=0077b6">](https://github.com/mjorgegulab/mantis-bug-tracker-action)
+[<img alt="Bug Tracked With-Mantis Bug Tracker Github Action" src="https://img.shields.io/badge/Bug Tracked With-Mantis Bug Tracker Github Action-<COLOR>?style=for-the-badge&color=0077b6">](https://github.com/cipher-fox/mantis-bug-tracker-action)
 ```
 
-[<img alt="Bug Tracked With-Mantis Bug Tracker Github Action" src="https://img.shields.io/badge/Bug Tracked With-Mantis Bug Tracker Github Action-<COLOR>?style=for-the-badge&color=2b9348">](https://github.com/mjorgegulab/mantis-bug-tracker-action)
+[<img alt="Bug Tracked With-Mantis Bug Tracker Github Action" src="https://img.shields.io/badge/Bug Tracked With-Mantis Bug Tracker Github Action-<COLOR>?style=for-the-badge&color=2b9348">](https://github.com/cipher-fox/mantis-bug-tracker-action)
 
 ```md
-[<img alt="Bug Tracked With-Mantis Bug Tracker Github Action" src="https://img.shields.io/badge/Bug Tracked With-Mantis Bug Tracker Github Action-<COLOR>?style=for-the-badge&color=2b9348">](https://github.com/mjorgegulab/mantis-bug-tracker-action)
+[<img alt="Bug Tracked With-Mantis Bug Tracker Github Action" src="https://img.shields.io/badge/Bug Tracked With-Mantis Bug Tracker Github Action-<COLOR>?style=for-the-badge&color=2b9348">](https://github.com/cipher-fox/mantis-bug-tracker-action)
 ```
 
-[<img alt="Bug Tracked With-Mantis Bug Tracker Github Action" src="https://img.shields.io/badge/Bug Tracked With-Mantis Bug Tracker Github Action-<COLOR>?style=for-the-badge&color=d00000">](https://github.com/mjorgegulab/mantis-bug-tracker-action)
+[<img alt="Bug Tracked With-Mantis Bug Tracker Github Action" src="https://img.shields.io/badge/Bug Tracked With-Mantis Bug Tracker Github Action-<COLOR>?style=for-the-badge&color=d00000">](https://github.com/cipher-fox/mantis-bug-tracker-action)
 
 ```md
-[<img alt="Bug Tracked With-Mantis Bug Tracker Github Action" src="https://img.shields.io/badge/Bug Tracked With-Mantis Bug Tracker Github Action-<COLOR>?style=for-the-badge&color=d00000">](https://github.com/mjorgegulab/mantis-bug-tracker-action)
+[<img alt="Bug Tracked With-Mantis Bug Tracker Github Action" src="https://img.shields.io/badge/Bug Tracked With-Mantis Bug Tracker Github Action-<COLOR>?style=for-the-badge&color=d00000">](https://github.com/cipher-fox/mantis-bug-tracker-action)
 ```
 
 ---
@@ -278,4 +278,4 @@ PRs and Issues are welcome. 😘
 
 ## License
 
-Copyright © thewolfx41 - Released under the MIT License.
+Copyright © CypherFox - Released under the MIT License.
