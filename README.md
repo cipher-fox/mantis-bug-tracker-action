@@ -4,6 +4,7 @@
 
 Automate issue creation on Mantis Bug Tracker with this GitHub action. **It's free!**
 
+[![Codacy Badge](https://api.codacy.com/project/badge/Grade/645d36421b8d482588f4acd0450a6040)](https://app.codacy.com/gh/cipher-fox/mantis-bug-tracker-action?utm_source=github.com&utm_medium=referral&utm_content=cipher-fox/mantis-bug-tracker-action&utm_campaign=Badge_Grade)
 ## [![Test Code](https://github.com/cipher-fox/mantis-bug-tracker-action/actions/workflows/tests.yml/badge.svg?branch=main)](https://github.com/cipher-fox/mantis-bug-tracker-action/actions/workflows/tests.yml) [![CodeQL](https://github.com/cipher-fox/mantis-bug-tracker-action/actions/workflows/github-code-scanning/codeql/badge.svg)](https://github.com/cipher-fox/mantis-bug-tracker-action/actions/workflows/github-code-scanning/codeql) [![Codacy Badge](https://app.codacy.com/project/badge/Grade/e822fd93d7ee45d1856054062c86cbfc)](https://app.codacy.com/gh/cipher-fox/mantis-bug-tracker-action/dashboard?utm_source=gh&utm_medium=referral&utm_content=&utm_campaign=Badge_grade) [![Known Vulnerabilities](https://snyk.io/test/github/cipher-fox/mantis-bug-tracker-action/badge.svg)](https://snyk.io/test/github/cipher-fox/mantis-bug-tracker-action)
 
 ### Usage Example
