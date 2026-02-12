@@ -35,7 +35,7 @@
   "dependencies": {
     "@actions/core": "^1.11.1",
     "@actions/github": "^6.0.1",
-    "axios": "^1.12.2",
+    "axios": "^1.13.5",
     "lodash": "^4.17.23",
     "markdown-to-txt": "^2.0.1",
     "sanitize-html": "^2.17.0"
